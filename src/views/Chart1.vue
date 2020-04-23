@@ -4,6 +4,7 @@
     :pan="true"
     :zoom="true"
     :draggable="true"
+    direction="l2r"
   >
   </vo-basic>
 </template>
