@@ -3,6 +3,7 @@
     :data="chartData"
     :pan="true"
     :zoom="true"
+    :draggable="true"
   >
   </vo-basic>
 </template>
