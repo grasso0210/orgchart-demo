@@ -1,5 +1,5 @@
 <template>
-  <vo-basic 
+  <vo-basic
     :data="chartData"
     :pan="true"
     :zoom="true"
@@ -22,14 +22,14 @@ export default {
         { name: 'Angular' },
         {
           name: 'React',
-          children: [{ name: 'Preact' }],
+          children: [{ name: 'Preact' }]
         },
         {
           name: 'Vue',
-          children: [{ name: 'Moon' }],
-        },
-      ],
+          children: [{ name: 'Moon' }]
+        }
+      ]
     }
-  },
+  }
 }
 </script>
