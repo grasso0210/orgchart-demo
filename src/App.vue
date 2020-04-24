@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/chart1">Chart1</router-link>
-    </div>
-    <router-view />
+    <chart1></chart1>
   </div>
 </template>
+
+<script>
+import Chart1 from './views/Chart1.vue'
+
+export default {
+  components: { Chart1 }
+}
+</script>
 
 <style lang="scss">
 #app {
