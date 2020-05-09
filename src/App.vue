@@ -15,14 +15,14 @@
             <dt> ●組織構造の変更 </dt>
             <dd> 変更元ノードをドラッグし、親にしたいノード上でドロップ </dd>
           </dl>
-          <div>
+          <div class="text-left">
             powered by
             <a
               target="_blank"
               href="https://github.com/spiritree/vue-orgchart"
             > vue-orgchart </a>
           </div>
-          <div>
+          <div class="text-left">
             source: <a href="https://github.com/grasso0210/orgchart-demo"> https://github.com/grasso0210/orgchart-demo </a>
           </div>
         </b-col>
