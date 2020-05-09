@@ -1,29 +1,15 @@
-# orgchart-demo
+# 組織図表示デモ
 
-## Project setup
+[Vue-orgchart](https://github.com/spiritree/vue-orgchart) を用いた、組織図表示・編集ツールのサンプルプログラムです。
+
+
+## ビルド手順
+### 前提条件
+
+Node.js がインストールされていること。
+
+### ビルド
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
