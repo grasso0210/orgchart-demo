@@ -16,11 +16,14 @@
             <dd> 変更元ノードをドラッグし、親にしたいノード上でドロップ </dd>
           </dl>
           <div>
-            powered by 
+            powered by
             <a
               target="_blank"
               href="https://github.com/spiritree/vue-orgchart"
             > vue-orgchart </a>
+          </div>
+          <div>
+            source: <a href="https://github.com/grasso0210/orgchart-demo"> https://github.com/grasso0210/orgchart-demo </a>
           </div>
         </b-col>
         <b-col
@@ -78,7 +81,7 @@ dl {
     font-weight: 300;
     font-size: 0.9rem;
   }
-  
+
   dd {
     font-size: 0.8rem;
     padding-left: 1rem;

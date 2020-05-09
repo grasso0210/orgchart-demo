@@ -10,11 +10,6 @@
   </vo-basic>
 </template>
 
-<style lang="scss">
-div.orgchart {
-  overflow: hidden !important;
-}
-</style>
 
 <script>
 import { VoBasic } from 'vue-orgchart'
@@ -85,7 +80,10 @@ export default {
             },
             {
               name: '農業工学部',
-              children: [{ name: '農業土木工学研究課' }, { name: '農業機械工学研究課' }]
+              children: [
+                { name: '農業土木工学研究課' },
+                { name: '農業機械工学研究課' }
+              ]
             }
           ]
         },
